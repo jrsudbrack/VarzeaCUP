@@ -42,12 +42,12 @@ npm install
     ```
 2. Configure as variáveis de ambiente para conectar ao seu banco de dados:
     ```env
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=varzeacup
-    DB_USERNAME=seu_usuario
-    DB_PASSWORD=sua_senha
+    DB_CONNECTION=pgsql
+	DB_HOST=127.0.0.1
+	DB_PORT=5432
+	DB_DATABASE=varzeacup
+	DB_USERNAME=postgres
+	DB_PASSWORD=postgres
     ```
 
 ### Passo 5: Gere a chave da aplicação
